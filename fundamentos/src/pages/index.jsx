@@ -1,9 +1,12 @@
+import Link from 'next/link'
+
 //Exportando um componente baseado em função
 export default function Inicio() {
     return (
         <div>
-            <h1>Fundamentos de Next.js e React</h1>
-            <h2>Vamos estudar esse framework</h2>
+            <Link href="/estiloso">
+                Estiloso
+            </Link>
         </div>
 
     )
