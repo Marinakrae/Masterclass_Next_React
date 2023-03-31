@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export default function Estiloso() {
     return (
-        <Layout>
+        <Layout titulo="Exemplo de CSS Modularizado">
             <div className={styles.roxo}>
                 <h1>Estilo usando css módulos</h1>
             </div>
