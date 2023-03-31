@@ -6,11 +6,13 @@ export default function Inicio() {
         <div style={{ //aqui as propriedades n possuem hífen
             display: 'flex',
             justifyContent: 'center',
-            alignItems: 'center'
+            alignItems: 'center',
+            height: '100vh',
+            flexwrap: 'wrap'
         }}>
             <Navegador texto="Estiloso" destino="/estiloso"/>
-            <Navegador texto="Exemplo" destino="/exemplo"/>
-            <Navegador texto="JSX" destino="/jsx"/>
+            <Navegador texto="Exemplo" destino="/exemplo" cor="#9400d3"/>
+            <Navegador texto="JSX" destino="/jsx" cor="crimson"/>
         </div>
 
     )

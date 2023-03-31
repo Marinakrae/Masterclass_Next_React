@@ -2,13 +2,14 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: #fce6f6;
 }
 
 .cabecalho {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #777;
+  background-color: #ff85da;
 }
 
 .cabecalho h1 {
